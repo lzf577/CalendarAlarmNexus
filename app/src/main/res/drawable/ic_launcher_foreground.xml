@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- 闹钟外圆 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,20C35.22,20 20,35.22 20,54C20,72.78 35.22,88 54,88C72.78,88 88,72.78 88,54C88,35.22 72.78,20 54,20Z"/>
+    <!-- 时针 -->
+    <path
+        android:fillColor="#1A237E"
+        android:pathData="M54,54L54,36"
+        android:strokeWidth="3"
+        android:strokeColor="#1A237E"
+        android:strokeLineCap="round"/>
+    <!-- 分针 -->
+    <path
+        android:fillColor="#1A237E"
+        android:pathData="M54,54L68,54"
+        android:strokeWidth="3"
+        android:strokeColor="#1A237E"
+        android:strokeLineCap="round"/>
+    <!-- 中心点 -->
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M54,51A3,3 0 0,1 57,54A3,3 0 0,1 54,57A3,3 0 0,1 51,54A3,3 0 0,1 54,51Z"/>
+</vector>
